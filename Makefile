@@ -1,5 +1,5 @@
-// call once on startup
-void dsh_init();
+pick-C:
+	git rm -rf rust
+pick-rust:
+	git rm -rf C
 
-// runs an entire command line dsh style, start to end
-void dsh_run(char*);
